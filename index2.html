@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Computer - Windows XP</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body class="xp-desktop">
+    <div class="window xp-window" id="my-computer">
+        <div class="window-header xp-header">
+            <div class="header-icon">
+                <img src="https://win98icons.alexmeub.com/icons/png/computer_explorer-4.png" alt="My Computer">
+            </div>
+            <span class="window-title">My Computer</span>
+            <div class="window-controls">
+                <button class="xp-btn minimize">_</button>
+                <button class="xp-btn maximize">□</button>
+                <button class="xp-btn close" onclick="window.location.href='index.html'">X</button>
+            </div>
+        </div>
+        
+        <!-- Rest of your window content remains the same -->
+        <div class="window-toolbar xp-toolbar">
+            <button class="toolbar-btn"><span class="btn-icon">←</span> Back</button>
+            <button class="toolbar-btn"><span class="btn-icon">→</span> Forward</button>
+            <button class="toolbar-btn"><span class="btn-icon">↑</span> Up</button>
+            <div class="toolbar-separator"></div>
+            <button class="toolbar-btn"><span class="btn-icon">🔍</span> Search</button>
+            <button class="toolbar-btn"><span class="btn-icon">📁</span> Folders</button>
+            <div class="toolbar-separator"></div>
+            <button class="toolbar-btn"><span class="btn-icon">🔄</span> Refresh</button>
+        </div>
+        
+        <div class="window-addressbar xp-addressbar">
+            <span class="address-label">Address:</span>
+            <div class="address-input">My Computer</div>
+        </div>
+        
+        <div class="window-content xp-content">
+            <div class="system-folders">
+                <div class="folder-item">
+                    <img src="https://icons.iconarchive.com/icons/visualpharm/must-have/256/Hard-Disk-icon.png" alt="Hard Drive">
+                    <span>Local Disk (C:)</span>
+                </div>
+                <div class="folder-item">
+                    <img src="https://win98icons.alexmeub.com/icons/png/cd_drive-4.png" alt="CD Drive">
+                    <span>CD Drive (D:)</span>
+                </div>
+                <div class="folder-item">
+                    <img src="https://win98icons.alexmeub.com/icons/png/network_normal_two_pcs-4.png" alt="Network">
+                    <span>My Network Places</span>
+                </div>
+                <div class="folder-item">
+                    <img src="https://static.wikia.nocookie.net/windows/images/b/b3/Control_Panel_Icon_Win11.png/revision/latest/thumbnail/width/360/height/360?cb=20221121015051" alt="Control Panel">
+                    <span>Control Panel</span>
+                </div>
+            </div>
+            
+            <div class="hardware-info">
+                <h3 class="info-title">System Tasks</h3>
+                <ul class="task-list">
+                    <li>View system information</li>
+                    <li>Add or remove programs</li>
+                    <li>Change a setting</li>
+                </ul>
+                
+                <h3 class="info-title">Details</h3>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <strong>System:</strong> Microsoft Windows XP
+                    </div>
+                    <div class="detail-item">
+                        <strong>Version:</strong> 5.1.2600
+                    </div>
+                    <div class="detail-item">
+                        <strong>Registered to:</strong> User
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="window-statusbar xp-statusbar">
+            <div class="status-item">2 objects</div>
+            <div class="status-separator"></div>
+            <div class="status-item">4.12 GB free</div>
+        </div>
+    </div>
+</body>
+</html>

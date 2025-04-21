@@ -1,0 +1,93 @@
+body {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/VVxYMB4ju8evTtzf4aF9pP.jpg'); /* Windows XP background */
+    background-size: cover;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desktop {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.icon {
+    width: 100px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.icon:hover {
+    background-color: #0066cc; /* Windows XP blue hover */
+}
+
+.icon-img {
+    width: 48px; /* Adjust icon size */
+    height: 48px; /* Adjust icon size */
+}
+
+.icon span {
+    display: block;
+    color: white; /* Adjust text color */
+}
+
+.window {
+    width: 400px;
+    border: 2px solid #000080; /* Dark blue border */
+    background-color: rgb(14, 14, 14); /* Light gray background */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.window-header {
+    background-color: #000080; /* Dark blue header */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.window-title {
+    font-weight: bold;
+}
+
+.exit-button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.window-content {
+    padding: 20px;
+}
+
+#searchInput {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px;
+    border: 1px solid #000080;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#searchButton {
+    padding: 10px;
+    border: 1px solid #00113f;
+    background-color: #0000cf;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#searchButton:hover {
+    background-color: #00113f; /* Darker blue on hover */
+}
